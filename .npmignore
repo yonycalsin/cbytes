@@ -1,5 +1,6 @@
 # Folders
 /src
+/.vscode
 
 # Files
 .gitignore
