@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "🎁 Utility to analyze a byte to byte chain and vice versa, unit converter ‍🌈",
   "main": "dist/index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp prod"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yonicb/cbytes.git"
@@ -32,8 +35,13 @@
   "homepage": "https://github.com/yonicb/cbytes#readme",
   "devDependencies": {
     "@types/node": "^13.1.1",
-    "rimraf": "^3.0.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
     "tslint": "^5.20.1",
-    "typescript": "^3.7.4"
+    "typescript": "^3.7.4",
+    "vinyl-buffer": "^1.0.1"
   }
 }
