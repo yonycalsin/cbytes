@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "🎁 Utility to analyze a byte to byte chain and vice versa, unit converter ‍🌈",
   "main": "dist/index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yonicb/cbytes.git"
@@ -30,5 +29,10 @@
   "bugs": {
     "url": "https://github.com/yonicb/cbytes/issues"
   },
-  "homepage": "https://github.com/yonicb/cbytes#readme"
+  "homepage": "https://github.com/yonicb/cbytes#readme",
+  "devDependencies": {
+    "@types/node": "^13.1.1",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.4"
+  }
 }
