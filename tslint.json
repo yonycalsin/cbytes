@@ -40,6 +40,9 @@
         "only-arrow-functions": [
             false
         ],
+        "no-bitwise": [
+            false
+        ],
         "arrow-parens": false,
         "object-literal-sort-keys": false
     },
