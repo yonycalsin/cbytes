@@ -2,6 +2,9 @@
 /src
 /.vscod
 /node_modules
+/test
+/lib
+/.vscode
 
 # Files
 .gitignore
@@ -11,3 +14,4 @@ gulpfile.js
 tslint.json
 tsconfig.json
 .npmignore
+jest.config.js
