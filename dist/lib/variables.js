@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+exports.b = 0;
+exports.kb = 1024;
+exports.mb = exports.kb * exports.kb;
+exports.gb = exports.mb * exports.kb;
+exports.tb = exports.gb * exports.kb;
+exports.pb = exports.tb * exports.kb;
+exports.eb = exports.pb * exports.kb;
+exports.zb = exports.eb * exports.kb;
+exports.yb = exports.zb * exports.kb;
+exports.units = { b: exports.b, kb: exports.kb, mb: exports.mb, gb: exports.gb, tb: exports.tb, pb: exports.pb, eb: exports.eb, zb: exports.zb, yb: exports.yb };
+exports.parseFormat = /^((-|\+)?(\d+(?:\.\d+)?)) *(b|kb|mb|gb|tb|pb|eb|zb|yb)$/i;
