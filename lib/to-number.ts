@@ -6,6 +6,9 @@ import { units } from './variables';
  * @Return number, null
  */
 export const toNumber = (format: string): number | null => {
+    if (!isNaN(Number(format))) {
+        return Number(format);
+    }
     const obj = formatToObject(format);
     if (obj.unit && obj.size) {
         return units[obj.unit.toLowerCase()] * obj.size;
